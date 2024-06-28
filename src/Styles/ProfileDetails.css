@@ -1,0 +1,131 @@
+.profile-details {
+  padding: 20px;
+  color: black;
+  margin-top: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.profile-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #007bff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-info h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.profile-info p {
+  font-size: 1em;
+  margin: 2px 0;
+}
+
+.profile-section {
+  margin-bottom: 30px;
+}
+
+.profile-details-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+  justify-content: center; /* Center align cards within their container */
+}
+
+.card {
+  width: 100%;
+  max-width: 400px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: left; /* Ensure text starts from the left */
+}
+
+.card p {
+  margin: 5px 0;
+}
+
+.skill-card {
+  background-color: #e0e0e0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.profile-section.skills .profile-details-list {
+  max-height: 150px; /* Set the max height for the skills list */
+  overflow-y: auto; /* Enable vertical scroll */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.skill {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.iconis {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.add-buttons {
+  gap: 20px;
+  margin-bottom: 20px;
+ 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  
+
+
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: calc(100% - 10px);
+  }
+}

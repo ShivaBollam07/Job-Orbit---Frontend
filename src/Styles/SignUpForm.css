@@ -1,0 +1,147 @@
+/* SignUpForm Styles */
+.signup-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f4f8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for better visibility */
+}
+.form-title{
+  font-size: 1.5rem;
+  margin: 0;
+  color: #000;
+}
+
+.signup-link{
+  font-size: 1rem;
+  margin: 0;
+  color: #555;
+
+}
+
+.form-subtitle{
+  font-size: 1rem;
+  margin: 0;
+  color: #555;
+
+}
+
+.maincontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.animation-container {
+  flex: 1; /* Take up all available space */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* Adjust padding as needed */
+}
+
+.lottie-animation {
+  width: 100%; /* Ensure animation fills its container */
+  max-width: 400px; /* Adjust max-width as needed */
+}
+
+.signup-form {
+  flex: 1; /* Take up remaining space */
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.signup-form .form-header-mini {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.signup-form .form-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.signup-form .form-header img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.signup-form h2 {
+  font-size: 1.5rem;
+  margin: 0;
+  color: #000;
+}
+
+.form-columns {
+  display: flex;
+  gap: 20px;
+}
+
+.form-column {
+  flex: 1;
+}
+
+.signup-form .form-group {
+  margin-bottom: 15px;
+  width: 100%; /* Ensure full width for input fields */
+}
+
+.signup-form label {
+  color: #555;
+  margin-bottom: 5px;
+  display: block; /* Make label a block element */
+  font-size: 0.9rem;
+}
+
+.signup-form input,
+.signup-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 12px;
+  width: 80%; /* Use full width of form group */
+  background-color: white;
+  color: #000;
+}
+
+.signup-form textarea {
+  resize: vertical;
+}
+
+.signup-form button {
+  padding: 12px;
+  color: #fff;
+  background-color: #ff69b4;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+}
+
+.signup-form button:hover {
+  background-color: #ff1493;
+}
+
+.signup-link {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.signup-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}

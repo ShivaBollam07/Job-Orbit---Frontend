@@ -1,0 +1,85 @@
+/* Styles for Navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  color: white;
+  width: 100vw; /* Full viewport width */
+  position: fixed; /* Fixed position */
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Ensure it's on top of other content */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.navbar-logo {
+  cursor: pointer; /* Make logo clickable */
+}
+
+.logo-image {
+  height: 40px; /* Adjusted height for the logo */
+  width: auto; /* Maintain aspect ratio */
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center; /* Center align the items */
+  gap: 20px;
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.navbar-link:hover {
+  text-decoration: underline;
+  color: aliceblue; /* Hover color change */
+}
+
+.navbar-profile {
+  position: relative; /* Relative positioning for dropdown */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.profile-icon {
+  margin-left: 10px; /* Adjusted margin for spacing */
+  font-size: 20px; /* Adjusted size for visibility */
+  color: white; /* Ensure the icon is white */
+  margin-right: 100px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%; /* Position below the profile icon */
+  right: 60px;
+  margin-top: 10px;
+  background-color: white;
+  color: black;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+  border-radius: 5px; /* Rounded corners */
+  overflow: hidden;
+  z-index: 1001; /* Ensure it's above other content */
+  display: flex;
+  flex-direction: column; /* Display items in a column */
+}
+
+.dropdown-item {
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for background change */
+}
+
+.dropdown-item:hover {
+  background-color: #f1f1f1;
+}
